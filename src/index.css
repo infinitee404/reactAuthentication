@@ -1,0 +1,23 @@
+:root {
+	--accent-color: #ff4936;
+	--accent-gradiant: linear-gradient(#ff4264, #ff4936);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #353535;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	cursor: pointer;
+}
